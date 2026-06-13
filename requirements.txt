@@ -1,0 +1,5 @@
+streamlit
+streamlit-gsheets
+google-genai
+pyvis
+pandas
