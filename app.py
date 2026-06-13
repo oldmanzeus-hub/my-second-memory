@@ -1,8 +1,9 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
+# This is the modern import line for the new package version
+from streamlit_gsheets import GSheetsConnection 
+import pandas as pd
 from pyvis.network import Network
 import streamlit.components.v1 as components
-import pandas as pd
 
 st.set_page_config(page_title="Personal Memory Vault", layout="wide")
 st.title("🧠 Personal Memory Vault & Mind Map")
